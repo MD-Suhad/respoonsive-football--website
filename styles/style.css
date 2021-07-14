@@ -28,41 +28,45 @@
      margin-left: 156px;
      line-height: 80px;
      font-size: 64px;
-     border: 1px solid black;
    }
-   .heading-part a
+   .heading-button
    {
-    position: absolute;
-    justify-content:center;
+    position:absolute;
+    justify-content:space-evenly;
     text-align: center;
-    width: 168px;
-    height: 44px;
-    border: 1px solid orange;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 0px 8px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(182, 144, 75);
+   
+    flex-direction:row;
+    margin-top: 10px;
     margin-left:156px;
-    padding: 12px 24px;
+    padding: 15px 20px;
     background: #E02C6D;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+   
     color: #FFFFFF;
-    text-decoration: none;
 
+   }
+   .heading-button:hover{
+     transform: scale(1.5);
+     background-color: darkolivegreen;
    }
    .heading-pic{
     width: 556.01px;
     height: 438px;
     margin-left: 102px;
     margin-top: 153px;
-    border: 1px solid darkmagenta;
    }
    .heading-pic img{
     width: 556.01px;
     height: 438px;
+    transition: width 5s;
 
 
+   }
+   .heading-pic img:hover{
+     width:600px;
    }
 
   /* -----------player Name styles-------  */
