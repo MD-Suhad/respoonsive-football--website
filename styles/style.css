@@ -1,0 +1,64 @@
+      /* ---font----- */
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+     
+      /* common styles and utilities */
+      
+      body{
+        font-family: 'Poppins', sans-serif;
+       }
+
+       /* --------top header part------- */
+   .top-header{
+     display:flex;
+     justify-content:right;
+     width:1440px;
+     height:677px;
+     border:3px solid red;
+     background: #2D25A0;
+     left: 0;
+     top: 0;
+   }
+   .heading-part h1{
+     width:485px ;
+     height:230px;
+     font-style: normal;
+     color: #FFFFFF;
+     font-weight: bold;
+     padding-top: 207px;
+     margin-left: 156px;
+     line-height: 80px;
+     font-size: 64px;
+     border: 1px solid black;
+   }
+   .heading-part a{
+    position: absolute;
+    justify-content:center;
+    width: 168px;
+    height: 44px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px 8px;
+    margin-left:156px;
+    padding: 12px 24px;
+    background: #E02C6D;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+
+   }
+   .heading-pic{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 153px;
+    border: 1px solid darkmagenta;
+   }
+   .heading-pic img{
+    width: 388px;
+    height: 428px;
+
+
+   }
