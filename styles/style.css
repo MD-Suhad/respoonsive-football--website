@@ -30,9 +30,11 @@
      font-size: 64px;
      border: 1px solid black;
    }
-   .heading-part a{
+   .heading-part a
+   {
     position: absolute;
     justify-content:center;
+    text-align: center;
     width: 168px;
     height: 44px;
     border: 1px solid orange;
@@ -57,8 +59,49 @@
     border: 1px solid darkmagenta;
    }
    .heading-pic img{
-    width: 388px;
-    height: 428px;
+    width: 556.01px;
+    height: 438px;
 
 
    }
+
+  /* -----------player Name styles-------  */
+  .players{
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:2px;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    margin-right: 140px;
+    margin-left: 140px;
+  }
+  .player{
+    width: 330px;
+    height: 456px;
+    margin: 16px 0px;
+    margin-top:20px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  }
+.player img{
+  width:300px;
+  height:256px;
+}
+ /* ----------footer style---------- */
+.footer-football{
+  display: grid;
+  justify-content:center;
+  text-align:center;
+}
+.icon h5{
+  padding: 15px;
+  font-weight:700px ;
+}
+.icon-style{
+  font-size:20px;
+  padding:10px;
+  box-shadow: 5px 5px 10px darkgrey;
+  border-radius:10px;
+}
